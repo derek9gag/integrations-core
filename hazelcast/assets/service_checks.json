@@ -1,0 +1,17 @@
+[
+    {
+        "agent_version": "6.19.0",
+        "integration": "Hazelcast",
+        "groups": [
+            "host",
+            "instance"
+        ],
+        "statuses": [
+            "ok",
+            "critical"
+        ],
+        "check": "hazelcast.can_connect",
+        "name": "Can Connect",
+        "description": "Returns `CRITICAL` if the Agent is unable to connect to Hazelcast, otherwise returns `OK`."
+    }
+]
