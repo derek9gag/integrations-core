@@ -1,5 +1,9 @@
 # CHANGELOG - datadog_checks_base
 
+## 11.3.0 / 2020-03-24
+
+* [Added] Add secrets sanitization helpers. See [#6107](https://github.com/DataDog/integrations-core/pull/6107).
+
 ## 11.2.0 / 2020-03-24
 
 * [Added] PDH to be able to use new agent signature. See [#5936](https://github.com/DataDog/integrations-core/pull/5936).
